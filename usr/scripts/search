@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo apt-get install catfish -y
+echo ""
+echo "****************************************************************"
+echo "* The installation is complete.                                *"
+echo "* You can locate Catfish - the File & Folder search program in *"
+echo "* Menu, Accessories, Catfish.                                  *"
+echo "* Press any Key to close this window.                          *"
+echo "****************************************************************"
+read -n1 any_key

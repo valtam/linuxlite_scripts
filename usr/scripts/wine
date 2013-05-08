@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "****************************************"
+echo "Linux Lite Additional Programs Installer"
+echo "****************************************"
+echo ""
+echo "This will install Wine."
+echo "Wine is a compatibility layer that lets you run"
+echo "a number of Windows Games and Programs."
+echo "Head to http://appdb.winehq.org/ to check the compatibility"
+echo "rating for your Windows program."
+echo "Once installed, Wine is located at the top of your Menu."
+echo "This window will automatically close when the install has completed."
+echo ""
+echo "Please enter your password to continue..."
+sudo apt-get install wine -y

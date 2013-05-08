@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "****************************************"
+echo "Linux Lite Additional Programs Installer"
+echo "****************************************"
+echo ""
+echo "This will install a Weather plugin for the taskbar."
+echo "Once installed, add the Weather plugin to the taskbar"
+echo "by right clicking on the taskbar, Panel, Add New Items"
+echo "scroll down to 'Weather Update' highlight and click Add, then Close."
+echo "Right click on the Weather plugin on the Taskbar and select Properties."
+echo "Change your Location."
+echo "This window will automatically close when the install has completed."
+echo ""
+echo "Please enter your password to continue..."
+sudo apt-get install xfce4-weather-plugin -y

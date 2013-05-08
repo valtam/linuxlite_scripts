@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "************************"
+echo "Linux Lite 1.0.4 Updates"
+echo "************************"
+echo ""
+echo "Linux Lite will now search for updates for your computer."
+echo "Once installed, your computer will be up to date."
+echo "Simply follow the onscreen instructions."
+echo "Once everything is complete, this window will close automatically."
+echo ""
+echo "Please enter your password to continue..."
+sudo apt-get update && sudo apt-get upgrade
