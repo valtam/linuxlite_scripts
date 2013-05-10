@@ -13,7 +13,7 @@ echo "If you install another login manager, this feature"
 echo "will not work."
 echo ""
 echo "Please enter your password to continue..."
-sudo sed -i "s/autologin=linux/autologin=$USER/g" /etc/lxdm/lxdm.conf
+sudo sed -i "s/autologin-user=linux/autologin-user=$USER/g" /etc/lightdm/lightdm.conf
 echo "Auto login is now enabled."
 echo "Next time you reboot your computer, you will"
 echo "login automatically."

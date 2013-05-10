@@ -1,10 +1,12 @@
 #!/bin/bash
-sudo apt-get install catfish -y
+echo "****************************************"
+echo "Linux Lite Additional Programs Installer"
+echo "****************************************"
 echo ""
-echo "****************************************************************"
-echo "* The installation is complete.                                *"
-echo "* You can locate Catfish - the File & Folder search program in *"
-echo "* Menu, Accessories, Catfish.                                  *"
-echo "* Press any Key to close this window.                          *"
-echo "****************************************************************"
-read -n1 any_key
+echo "This will install Catfish, simple to use file and folder searcher."
+echo "Once installed, Catfish is located in Menu, Accessories."
+echo "This window will automatically close when the install has completed."
+echo "Support is available from - http://twotoasts.de/index.php/catfish/"
+echo ""
+echo "Please enter your password to continue..."
+sudo apt-get install catfish -y

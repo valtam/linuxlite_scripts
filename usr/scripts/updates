@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "************************"
-echo "Linux Lite 1.0.4 Updates"
+echo "Linux Lite 1.0.6 Updates"
 echo "************************"
 echo ""
 echo "Linux Lite will now search for updates for your computer."
