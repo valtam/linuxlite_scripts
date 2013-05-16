@@ -10,6 +10,9 @@ echo "Once everything is complete, this window will close automatically."
 echo ""
 echo "Please enter your password to continue..."
 sudo apt-get update && sudo apt-get upgrade
+
+#Linux Lite Help & Support Manual - Update
+
 echo""
 echo "Downloading latest version of manual..."
 sudo wget https://github.com/valtam/linuxlite_manual/archive/master.zip
