@@ -2,14 +2,14 @@
 
 # Script start
 
-echo "**************************"
-echo "Linux Lite - Manual Update"
-echo "**************************"
+echo "*****************************************"
+echo "Linux Lite - Help & Support Manual Update"
+echo "*****************************************"
 echo ""
 echo "This will update your Linux Lite Manual"
 echo "to the latest version."
 echo ""
-echo "Downloading latest version of manual..."
+echo "Downloading latest version of the manual..."
 wget http://www.linuxliteos.com/updates/C.tar.gz
 tar -xvzf C.tar.gz
 echo ""
