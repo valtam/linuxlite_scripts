@@ -14,7 +14,7 @@ sudo apt-get update && sudo apt-get upgrade
 #Linux Lite Help & Support Manual - Update
 
 echo""
-echo "Downloading latest version of manual..."
+echo "Downloading latest version of the manual..."
 sudo wget https://github.com/valtam/linuxlite_manual/archive/master.zip
 sudo unzip master.zip
 echo ""
