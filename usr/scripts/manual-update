@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Script start
+
+echo "**************************"
+echo "Linux Lite - Manual Update"
+echo "**************************"
+echo ""
+echo "This will update your Linux Lite Manual"
+echo "to the latest version."
+echo ""
+echo "Downloading latest version of manual..."
+wget http://www.linuxliteos.com/updates/C.tar.gz
+tar -xvzf C.tar.gz
+echo ""
+echo "New files received."
+echo "We will now update you to the latest version of the"
+echo "Linux Lite Help & Support Manual."
+echo ""
+echo "Please enter your password to continue..."
+sudo rsync -rtv C/ /usr/share/doc/xfce4-utils/html/C
+echo "Cleaning files..."
+sleep 3
+rm -rf C.tar.gz
+rm -rf C/
+echo ""
+echo "You now have the latest version of the Linux Lite Help & Support Manual."
+echo "Press any Key to close this window."
+read -n1 any_key
