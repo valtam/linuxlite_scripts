@@ -10,3 +10,21 @@ echo "Once everything is complete, this window will close automatically."
 echo ""
 echo "Please enter your password to continue..."
 sudo apt-get update && sudo apt-get upgrade
+echo""
+echo "Downloading latest version of manual..."
+sudo wget https://github.com/valtam/linuxlite_manual/archive/master.zip
+sudo unzip master.zip
+echo ""
+echo "New files received."
+echo "We will now update you to the latest version of the"
+echo "Linux Lite Help & Support Manual."
+echo ""
+sudo rsync -avz linuxlite_manual-master/ /usr/share/doc/xfce4-utils/html
+echo "Cleaning files..."
+sleep 3
+sudo rm -rf master.zip
+sudo rm -rf linuxlite_manual-master/
+echo ""
+echo "All system updates are complete."
+echo "Press any Key to close this window."
+read -n1 any_key
