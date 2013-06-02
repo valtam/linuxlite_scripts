@@ -1,11 +1,16 @@
 #!/bin/bash
-echo "*************************"
-echo "Restarting Network Shares"
-echo "*************************"
+
+bold=`tput bold`
+normal=`tput sgr0`
+
+echo "${bold}******************************"
+echo "Restart Network Share Services"
+echo "******************************${normal}"
 echo ""
-echo "This will restart your network share services to apply the new settings."
+echo "This will restart your Network Share Services"
+echo "to apply the new settings."
 echo ""
-echo "This window will automatically close when network share services have restarted."
+echo "This window will automatically close when Network Share Services has restarted."
 echo "Please enter your password to continue..."
 sudo service smbd restart
 sudo service nmbd restart

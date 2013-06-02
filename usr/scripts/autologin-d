@@ -3,13 +3,14 @@
 bold=`tput bold`
 normal=`tput sgr0`
 
-echo "*******************************"
+echo "${bold}*******************************"
 echo "Linux Lite - Disable Auto Login"
-echo "*******************************"
+echo "*******************************${normal}"
 echo ""
 echo "This will disable auto login for your computer."
 echo "This will ${bold}ONLY${normal} work for the current login manager."
-echo "If you install another login manager, this feature will not work."
+echo "If you install another login manager, this feature"
+echo "will not work."
 echo ""
 echo "Please enter your password to continue..."
 sudo sed -i "s/autologin-user=$USER/autologin-user=linux/g" /etc/lightdm/lightdm.conf

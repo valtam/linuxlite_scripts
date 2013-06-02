@@ -1,10 +1,14 @@
 #!/bin/bash
-echo "****************************************"
+
+bold=`tput bold`
+normal=`tput sgr0`
+
+echo "${bold}****************************************"
 echo "Linux Lite Additional Programs Installer"
-echo "****************************************"
+echo "****************************************${normal}"
 echo ""
 echo "This will install Remmina Remote Desktop for Windows(RDP) and VNC Servers."
-echo "Once installed, Remmina is located in Menu, Internet."
+echo "Once installed, ${bold}Remmina${normal} is located in ${bold}Menu, Internet.${normal}"
 echo "This window will automatically close when the install has completed."
 echo "Support is available from - http://remmina.sourceforge.net/"
 echo ""
