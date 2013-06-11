@@ -41,8 +41,8 @@ sleep 3
 sudo rm -rf master.zip
 sudo rm -rf linuxlite_manual-master/
 echo ""
-echo "***********************************"
+echo "********************************"
 echo "All system updates are complete."
-echo "Press any Key to close this window."
-echo "***********************************"
-read -n1 any_key
+echo "This window will now close."
+echo "********************************"
+sleep 5
