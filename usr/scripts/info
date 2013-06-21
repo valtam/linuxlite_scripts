@@ -14,9 +14,9 @@ rm -rf $HOME/systeminfo*
 
 # Script start
 
-echo "**************************************"
+echo "${bold}**************************************"
 echo "Linux Lite - System Information Report"
-echo "**************************************"
+echo "**************************************${normal}"
 echo ""
 echo "This will gather system information which will help"
 echo "our Support team to help you more effectively."
