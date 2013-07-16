@@ -114,6 +114,13 @@ sudo hdparm -i /dev/sdb >> $HOME/systeminfo-"${DATE}".txt
 sudo hdparm -i /dev/sdc >> $HOME/systeminfo-"${DATE}".txt
 
 echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
+echo "Groups Information" >> $HOME/systeminfo-"${DATE}".txt
+echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
+echo "" >> $HOME/systeminfo-"${DATE}".txt
+groups $USER >> $HOME/systeminfo-"${DATE}".txt
+echo "" >> $HOME/systeminfo-"${DATE}".txt
+
+echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
 echo "PCI Information" >> $HOME/systeminfo-"${DATE}".txt
 echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
 echo "" >> $HOME/systeminfo-"${DATE}".txt
@@ -156,6 +163,13 @@ ifconfig >> $HOME/systeminfo-"${DATE}".txt
 more /etc/network/interfaces >> $HOME/systeminfo-"${DATE}".txt
 echo "" >> $HOME/systeminfo-"${DATE}".txt
 sudo lshw -C network >> $HOME/systeminfo-"${DATE}".txt
+echo "" >> $HOME/systeminfo-"${DATE}".txt
+
+echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
+echo "Environment Variables Information" >> $HOME/systeminfo-"${DATE}".txt
+echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
+echo "" >> $HOME/systeminfo-"${DATE}".txt
+printenv >> $HOME/systeminfo-"${DATE}".txt
 echo "" >> $HOME/systeminfo-"${DATE}".txt
 
 echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
