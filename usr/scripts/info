@@ -86,7 +86,7 @@ echo "===========================================================" >> $HOME/syst
 echo "Screen Resolution Information" >> $HOME/systeminfo-"${DATE}".txt
 echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
 echo "" >> $HOME/systeminfo-"${DATE}".txt
-sudo xrandr >> $HOME/systeminfo-"${DATE}".txt
+xrandr >> $HOME/systeminfo-"${DATE}".txt
 echo "" >> $HOME/systeminfo-"${DATE}".txt
 
 echo "===========================================================" >> $HOME/systeminfo-"${DATE}".txt
