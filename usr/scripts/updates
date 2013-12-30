@@ -4,7 +4,7 @@ bold=`tput bold`
 normal=`tput sgr0`
 
 echo "${bold}************************"
-echo "Linux Lite 1.0.6 Updates"
+echo "Linux Lite 1.0.8 Updates"
 echo "************************${normal}"
 echo ""
 echo "Linux Lite will now search for updates for your computer."
