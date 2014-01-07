@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Linux Lite System Information Report Tool for Ubuntu based systems
 # Dependencies - lshw, dmidecode, hdparm
 # Developer - Jerry Bezencon
@@ -195,5 +195,6 @@ echo "" >> $HOME/systeminfo-"${DATE}".txt
 echo "The System Report is now complete."
 echo "You now have a file called ${bold}systeminfo-"${DATE}".txt${normal} in your Home folder."
 echo "You can open it by double clicking on it."
-read -n 1 -p "Press any Key to close this window..."
-exit 0
+
+read -p "Press any Key to close this window." wait
+exit
