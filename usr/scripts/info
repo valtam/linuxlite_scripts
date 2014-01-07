@@ -196,4 +196,4 @@ echo "The System Report is now complete."
 echo "You now have a file called ${bold}systeminfo-"${DATE}".txt${normal} in your Home folder."
 echo "You can open it by double clicking on it."
 read -n 1 -p "Press any Key to close this window..."
-exit
+exit 0
