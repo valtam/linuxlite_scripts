@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Linux Lite System Information Report Tool for Ubuntu based systems
 # Dependencies - lshw, dmidecode, hdparm
 # Developer - Jerry Bezencon
