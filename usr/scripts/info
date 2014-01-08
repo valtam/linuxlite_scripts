@@ -191,9 +191,14 @@ echo "===========================================================" >> $HOME/syst
 echo "" >> $HOME/systeminfo-"${DATE}".txt
 
 # End of reporting information
-
+clear
+echo "${bold}**************************************"
+echo "Linux Lite - System Information Report"
+echo "**************************************${normal}"
+echo ""
 echo "The System Report is now complete."
 echo "You now have a file called ${bold}systeminfo-"${DATE}".txt${normal} in your Home folder."
 echo "You can open it by double clicking on it."
-echo "Press any Key to close this window."
-read -n1 any_key
+echo "Press The Enter Key to close this window."
+read enterKey
+exit

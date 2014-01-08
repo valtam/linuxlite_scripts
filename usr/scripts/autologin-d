@@ -17,5 +17,6 @@ sudo sed -i "s/autologin-user=$USER/autologin-user=linux/g" /etc/lightdm/lightdm
 echo "Auto login is now disabled."
 echo "Next time you reboot your computer, you will"
 echo "login with your usual username and password."
-echo "Press any Key to close this window."
-read -n1 any_key
+echo "Press The Enter Key to close this window."
+read enterKey
+exit
